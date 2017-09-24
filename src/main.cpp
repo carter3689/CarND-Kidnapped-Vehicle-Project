@@ -46,7 +46,7 @@ int main() {
 	double n_x, n_y, n_theta, n_range, n_heading;
 	// Read map data
 	Map map;
-	if (!read_map_data("data/map_data.txt", map)) {
+	if (!read_map_data("../data/map_data.txt", map)) {
 		cout << "Error: Could not open map file" << endl;
 		return -1;
 	}
